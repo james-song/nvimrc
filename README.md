@@ -1,0 +1,2 @@
+# nvimrc
+neovim configure

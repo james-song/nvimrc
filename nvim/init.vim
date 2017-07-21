@@ -7,22 +7,20 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'tpope/vim-fugitive'
 Plug 'rhysd/committia.vim'
-Plug 'davidhalter/jedi-vim'
-Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
 
-"Plug 'plasticboy/vim-markdown'
+Plug 'plasticboy/vim-markdown'
 Plug 'othree/html5.vim'
-Plug 'lepture/vim-jinja'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'cespare/vim-toml'
 Plug 'pbrisbin/vim-syntax-shakespeare'
 
-"Plug 'Auto-Pairs'
-"Plug 'toggle_comment'
-"Plug 'bufexplorer.zip'
-"Plug 'Mark'
+Plug 'vim-scripts/Auto-Pairs'
+Plug 'vim-scripts/toggle_comment'
+Plug 'vim-scripts/bufexplorer.zip'
+Plug 'vim-scripts/Mark'
 
+Plug 'kshenoy/vim-signature'
 Plug 'scrooloose/syntastic'
 Plug 'dracula/vim'
 Plug 'wakatime/vim-wakatime'
@@ -108,7 +106,5 @@ nmap <S-l> :tabn<CR>
 vmap <Tab> >gv
 vmap <S-Tab> <gv
 
-
-let g:python_host_prog = '/usr/local/bin/python2'
-let g:python3_host_prog = '/usr/local/bin/python3'
-
+" To disable Python 2 support: >
+let g:loaded_python_provider = 1

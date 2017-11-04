@@ -9,7 +9,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'rhysd/committia.vim'
 Plug 'pangloss/vim-javascript'
 
-Plug 'plasticboy/vim-markdown'
 Plug 'othree/html5.vim'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'cespare/vim-toml'

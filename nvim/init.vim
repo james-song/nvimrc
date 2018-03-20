@@ -22,7 +22,6 @@ Plug 'vim-scripts/Mark'
 Plug 'kshenoy/vim-signature'
 Plug 'scrooloose/syntastic'
 Plug 'dracula/vim'
-Plug 'wakatime/vim-wakatime'
 
 function! DoRemote(arg)
   UpdateRemotePlugins
